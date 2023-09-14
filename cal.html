@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <script src="https://kit.fontawesome.com/8cc38c2cff.js" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+      <div class="frame">
+        <input id="tb" type="textbox">
+        <br>
+        <br>
+        <button style="background-color:rgb(238, 82, 82);" onclick="clearscreen()">c</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('-')">-</button>
+        <button id="bb" onclick="backspace()"><i class="fa-solid fa-delete-left" style="font-size:20px;"></i></button>
+
+        <br>
+        <br>
+        <button onclick="display(1)">1</button>
+        <button onclick="display(2)">2</button>
+        <button onclick="display(3)">3</button>
+        <button onclick="display('+')">+</button>
+        <br>
+        <br>
+        <button onclick="display(4)">4</button>
+        <button onclick="display(5)">5</button>
+        <button onclick="display(6)">6</button>
+        <button onclick="display('*')">*</button>
+        <br>
+        <br>
+        <button onclick="display(7)">7</button>
+        <button onclick="display(8)">8</button>
+        <button onclick="display(9)">9</button>
+        <button onclick="display('.')">.</button>
+        <br>
+        <br>
+        <button style="width:165px;" onclick="display(0)">0</button>
+        <button style="background-color: rgb(92, 92, 254); width:165px;" onclick="calculate()">=</button>
+      </div>
+      <script src="calc.js"></script>
+    </body>
+</html>
